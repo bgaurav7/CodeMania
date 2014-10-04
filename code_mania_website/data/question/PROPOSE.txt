@@ -1,0 +1,41 @@
+Aloknath's Sanskari son likes a girl. He wants to convey his proposal to her.
+But scared of his Sanskari Dad, he decided to pass his proposal indirectly.
+
+He has devised a way of encrypting messages.
+He writes the message (letters only) down the columns, padding with extra random letters so as to make a square array of letters. 
+For example, if the message is 
+“aloknathisverysanskari” 
+and there are five columns, Aloknath's son would write down
+
+a a v a r
+l t e n i
+o h r s #
+k i y k #
+n s s a #
+
+Note that Aloknath's son includes only letters. In this example, Aloknath's son used the character ‘#’ to pad the message out to make a perfect square, although he could have used any letter. 
+
+Aloknath's son then sends the message to his friend by writing the letters diagnoally. First upward then downard direction(alternatively).
+
+So, the above would be encrypted as
+
+aalotvaehknirnrisyssk##a#
+
+Input -
+First line contains an integer T(<=1000) denoting the number of test cases.
+Each test case consists of 1 sting(length < 100000)of only letters(No spaces).
+
+Output -
+Encoded string.
+
+Sample Input -
+2
+hi
+ilikeher
+
+Sample Output -
+h#i#
+iklieerh#
+
+
+

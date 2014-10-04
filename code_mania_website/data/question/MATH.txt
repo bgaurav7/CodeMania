@@ -1,0 +1,21 @@
+Alok Nath being fond of Sanskari Maths has come up with a new mathematical function called the "Sanskari Function". 
+This function takes a number n and returns a new number by adding any of the prime factors of n to itself. Eg. 10 + 5 (Prime factor of 10) = 15.
+Now Alok Nath is wondering in how many moves he can convert a given number n into another number m by using his Sanskari Function several number of times.
+Can you help Alok Nath in finding the minimum number of moves for given 2 integers.
+
+Input -
+First line contains an integer T(<=500) denoting the number of test cases.
+Each test case consists of 2 positive numbers n and m.
+
+Output -
+It consists of a single integer - the minimum number of moves required to convert n into m.
+If it is not possible to convert n into m print -1.
+
+Sample Input -
+2
+6 12
+6 13
+
+Sample Output -
+2
+-1

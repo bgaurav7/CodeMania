@@ -1,0 +1,122 @@
+/*********************************************************************************/
+/* Desktop (>= 480px)                                                            */
+/*********************************************************************************/
+
+/* Header */
+
+#header-wrapper {
+	overflow: hidden;
+}
+
+.homepage #header-wrapper {
+}
+
+#header {
+	overflow: hidden;
+	margin: 0 auto 0 auto;
+	/*background: url(images/img02.png) no-repeat right top;*/
+	padding: 0 0 3em 0;
+	background-size: 90%;
+}
+
+/* Logo */
+
+#logo {
+	overflow: hidden;
+	padding: 3em .25em 1em .5em;
+	text-shadow: 1px 1px 0px #188FB9;
+	text-transform: uppercase;
+}
+
+#logo h1 a {
+	margin: 0em;
+	padding: 0em 0em 0em 0em;
+	letter-spacing: -.1em;
+	text-decoration: none;
+	font-size: 4em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#logo p {
+	padding: 0em 0em 0em .5em;
+	font-size: 1.5em;
+	color: #BDF2FF;
+}
+
+/* Rank */
+
+#rank {
+	overflow: hidden;
+	padding: 4em 0em 4em 0em;
+}
+
+#rank h2 {
+	padding: 0em 0em 0em 0em;
+	letter-spacing: normal;
+	text-shadow: 1px 1px 0px #1B94BD;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	overflow: hidden;
+}
+
+#menu ul {
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 0.12em;
+	padding: .8em 1.5em;
+	background: #178EAE;
+	box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.25);
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #0C749C;
+	text-transform: uppercase;
+	font-size: .90em;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item {
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a:hover {
+	background:#ff6;
+	color:#09C;
+}
+
+/* Main Wrapper */
+
+#wrapper {
+}
+
+/* Page Wrapper */
+
+#page-wrapper {
+}
+
+#pbox1 {
+	padding: 0em 0em 0em 1em;
+}
+
+#pbox2 {
+}
+
+#pbox3 {
+	padding: 0em 2em 0em 0em;
+}

@@ -1,0 +1,42 @@
+Alok Nath worked for years making "sanskaries" . A sanskari is a doll that may be opened in two halves, so that one may find other dolls inside. Then this doll may be opened to find another one inside it. This can be repeated several times, till a final doll -that cannot be opened- is reached.
+
+Sanskaries are denoted with a sequence of non zero integers of the form:
+a1 a2 ... aN
+such that sanskari of weight k is represented in the sequence with two integers - k and k, with the negative one occurring in the sequence before than the positive one.
+For example, the sequence
+-9 -7 -2 2 -3 -2 -1 1 2 3 7 9
+represents a generalized sanskari conformed by six toys, namely,  with weights : 1, 2 (twice),3, 7 and 9. 
+
+(-9 (-7 ((-2 2) (-3 (-2 (-1 1) 2) 3) ) 7) 9).
+
+Note:- If a Sanskari doll contains other dolls within it, then the sum of the dolls contained JUST within it must be strictly lesser than the weight of the bigger Sanskari doll.
+For example, in the previous sequence, the doll with weight 3 is Sanskari because the doll with weight 2 is contained just within it, but the one with weight 1 is not considered here. Whereas for the doll with weight 7, we will consider the sum of dolls with weights 2 and 3.
+
+On the other hand, the following sequence does not describe generalized sanskari:
+-9 -7 -2 2 -3 -1 -2 3 2 1 7 9
+because there is a nesting problem within toy 3.
+Your problem is to write a program to help Alok Nath differentiating good designs from bad ones.
+
+Input -
+First line contain no of test cases.
+For each test case:-
+	First line contains single integer n denoting no of elements in array.
+	Second line contain n elements a[i] denoting elements of array.
+a[i]<=10^5 
+
+Output -
+For each test case the answer must be a line of the form
+"Sanskari"(without quotes) 
+if the design describes a generalized sanskari. In other case, the answer should be of the form
+"Try again"(without quotes)
+
+Sample Input -
+2
+12
+-9 -7 -2 2 -3 -2 -1 1 2 3 7 9
+12
+-9 -7 -2 2 -3 -1 -2 3 2 1 7 9
+
+Sample Output -
+Sanskari
+Try Again

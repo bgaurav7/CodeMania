@@ -1,0 +1,54 @@
+Aloknath, the Sanskari man aged before his years and is always confined to his wheelchair and
+oxygen tank. He never speaks a syllable. To express himself he used a board. The board was a 6 × 6
+2D grid as shown in the picture below. Top-left corner is (1, 1).
+
+A B C D 1 2
+E F G H 3 4
+I J K L M N
+O P Q R S T
+U V W X Y Z
+5 6 7 8 9 0
+
+To complete a sentence he goes character by character. For choosing a single character two steps
+involve:
+
+1. Select the desired row of the character.
+2. Select the desired column of the character.
+
+Cost of choosing a character is the sum of row and column of the character in the board. Total cost
+of making a sentence is the sum of cost of choosing all characters. You can assume that cost of
+choosing space of a sentence is 0.
+For Example, cost of making sentence “CALL DEA” is 
+(1+3) + (1+1) + (3+4) + (3+4) + (1+4) + (2+1) + (1+1) = 30.
+
+In our problem Aloknath has a sentence to complete but the board is not fixed. We can break the
+board and reform it to minimize the cost of completing the sentence. We need to figure out what could
+be the minimal cost possible.
+
+A C D B 1 2
+L F G H 3 4
+E J K I M N
+O P Q R S T
+U V W X Y Z
+5 6 7 8 9 0
+
+This can be an optimal formation of board. Then the cost will be 
+(1+2) + (1+1) + (2+1) + (2+1) + (1+3) + (3+1) + (1+1) = 21
+
+Input
+Input starts with an integer T (≤ 100), denoting the number of test cases. Each case starts with a
+string of length L (≤ 100) consisting of only uppercase letters (A-Z), digits (0-9) and spaces.
+
+Output
+For each case, print the minimum possible cost in a single line. See the samples for exact formatting.
+
+Sample Input
+3
+CALL DEA
+WALTER WHITE
+09AZ
+
+Sample Output
+21
+38
+12

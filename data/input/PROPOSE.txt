@@ -1,0 +1,12 @@
+10
+a
+ab
+abc
+abcd
+abcdefghi
+abcdefg
+abcde
+abcdefghijklmnopqrstuvwvyz
+abcdefghijklmnopqrstuvwv
+abcdefghijklmno
+

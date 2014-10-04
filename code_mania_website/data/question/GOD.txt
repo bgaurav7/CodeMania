@@ -1,0 +1,23 @@
+Alok Nath is spreading his sanskar day by day to enhance this he is searching for "GOD" in every word. 
+But poor Alok is not a good programmer like you so he needs your help in finding the word which contain a subsequence "GOD".
+
+
+Input -
+First line contains T(<=100) denoting the number of test cases.
+Next T lines contains a string (length <= 100000).
+
+Output -
+"Yes" if string contains a subsequence "GOD" otherwise "No".
+(Quotes are shown only for clarity.)
+
+
+Sample Input-
+3
+ABCGPOFDK
+DLOBG
+LGODM
+
+Sample Output
+Yes
+No
+Yes
